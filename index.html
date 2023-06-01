@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ricardo Serra Díaz">
+    <meta name="descripción" content="Desarollador de Tecnología">
+    <meta name="Copyright" content="Todos los derechos reservados">
+    <meta name="keywords" content="Chile, estrellas, cielo, San Pedro de Atacama, desierto, salar, turismo, norte">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/Favicon.png">
+    <title>Xtreme Santiago</title>
+</head>
+<body>
+
+
+<!--Sección de backgrounds-->
+<section class="backgrounds">
+    <video class="video-container" autoplay muted loop>
+      <source class="iframe" src="assets/img/Fiesta.mp4" type="video/mp4">
+    </video> 
+    <div id="fondo" class="hide"></div>
+  </section>
+
+  <!--Sección menu-->
+    <header>
+      <nav class="container-fluid navbar navbar-expand-lg navbar-dark">
+              <div class="d-inline menu navbar-nav ms-auto">
+                    <div class="logo">
+                  <a class="pr-1 pt-2 ps-2" id="minicio" href="#">XS</a>
+                  </div>
+                  <div class="me-4 pt-3 ">
+                  <a class="px-1 text-white"href="https://www.puntoticket.com/">TICKETS</a>
+                  <a class="px-1 text-white" id="mubicacion" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">INFO</a>
+                  </div>
+              </div>
+              <div class="ps-1 pt-3">
+                <a class="icon" href="https://fb.com/"><i class="fa-brands fa-facebook-f fa-beat-fade pe-2" style="color: #ffffff;"></i></a>
+                <a class="icon" href="https://twitter.com/"><i class="fa-brands fa-twitter fa-beat-fade pe-2" style="color: #ffffff;"></i></a>
+                <a class="icon" href="https://instagram.com/"><i class="fa-brands fa-instagram fa-beat-fade pe-2" style="color: #ffffff;"></i></a>
+                <a class="icon" href="https://youtube.com/"><i class="fa-brands fa-youtube fa-beat-fade pe-2" style="color: #ffffff;"></i></a>
+                <a class="icon" href="https://spotify.com/"><i class="fa-brands fa-spotify fa-beat-fade pe-2" style="color: #ffffff;"></i></a>
+              </div>
+      </nav>
+  </header>
+
+  <!--Sección central-->
+  <section class="text-center">
+    <div class=" titulo1  mx-2">
+        <div class=" d-inline-block">
+        <h1>XS</h1>
+        </div>
+        <div class=" d-inline-block text-white">
+        <h2 class=>XTREME</h2>
+        <h3 class=>SANTIAGO</h3>
+        </div>
+    </div>
+    <div class="titulo2 text-white">
+      <h2 class="px-2 pb-1">El festival de música electronica más grande de Chile</h2>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade ps-4" id="exampleModal" tabindex="-1" aria-hidden="true">
+    <div class=" modal-dialog modal-xl modal-dialog-centered">
+      <div class="row modal-content pt-4">
+        <div class="container-fluid">
+          <div class="row text-white text-center">
+            <div class="main col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+              <h2 class="bg-black">MAIN STAGE</h2>
+              <br>
+              <p>TIESTO</p>
+              <p id="guetta">DAVID GUETTA</p>
+              <p id="oxia">OXIA</p>
+              <p>ARMIN</p>
+              <p>SKRILEX</p>
+              <p>AFROJACK</p>
+              <p>STEVE AOKI</p>
+              <p>LIKE MIKE</p>
+              <br>
+              </div>
+              <div class="side col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+              <h2 class="bg-black">SIDE STAGE</h2>
+              <br>
+              <p>ANN CLUE</p>
+              <p>DON DIABLO</p>
+              <p>PARADOX</p>
+              <p>MARSHMELLO</p>
+              <p>PICKLES</p>
+              <p>ASTRIX</p>
+              <p>DIMITRI VEGAS</p>
+              <p>FISHER</p>
+              <br>
+              </div>
+              <div class="map col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+              <h2 class="bg-black">MAPA DEL EVENTO</h2>
+              <br>
+              <img src="assets/img/mapa.jpg" class="img-fluid pb-4 px-4" alt="mapa">
+              <br>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Musica oculta-->
+  <div class="d-none">
+    <audio 
+    src="assets/img/DGuetta.mp3" controls="controls" id="aguetta">  
+    </audio>
+    <audio 
+    src="assets/img/Oxia.mp3" controls="controls" id="aoxia">  
+    </audio>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/360cd4ba7a.js" crossorigin="anonymous"></script>
+  <script src="assets/js/savethesky.js"></script>  
+
+</body>
+</html>
