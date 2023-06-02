@@ -146,14 +146,14 @@ $("#oxia")
                     boton12.pause()
                 }); 
 
-            var boton13 = $("#apickles")[0];
-            $("#pickles")
+            var boton13 = $("#amgarrix")[0];
+            $("#mgarrix")
                 .mouseenter(function() {
                     boton13.play()
                 });
             
-            var boton13 = $("#apickles")[0];
-            $("#pickles")
+            var boton13 = $("#amgarrix")[0];
+            $("#mgarrix")
                 .mouseout(function() {
                     boton13.pause()
                 }); 
